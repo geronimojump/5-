@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: beige;
+    font-family: 'Manrope', sans-serif;
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Sunflower', sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+h1 {
+    font-size: 45px;
+    font-family: 'Manrope', sans-serif;
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Sunflower', sans-serif;
+    text-align: center;
+    border-bottom: 3px solid green;
+    background-color: green;
+    color:yellow;
+    margin: 0;
+    padding: 20px;
+}
+ol {
+    font-family: 'Manrope', sans-serif;
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Sunflower', sans-serif;
+    border-right: 3px solid blue;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+#grid ol {
+    padding-left:33px;
+}
+#article {
+    padding-left:25px;
+}
+h2 {
+    color: black;
+    font-family: 'Manrope', sans-serif;
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Sunflower', sans-serif;
+}
+#title {
+    color: yellow;
+}
+.panel-footer{
+   background-color: green;
+   color : yellow;
+   position : fixed;
+   bottom : 0;
+   width: 85%;
+
+}
+#night_day{
+    position : relative;
+    top :-155%;
+    left:96.8%;
+}
